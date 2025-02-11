@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* To-Do App Container */
+#app-container {
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Input and Button Styling */
+#add-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btn-add {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+#btn-add:hover {
+    background-color: #2980b9;
+}
+
+/* To-Do List Styling */
+.to-do-list {
+    list-style: none;
+    padding: 0;
+}
+
+.to-do-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.to-do-item:hover {
+    background: #ececec;
+}
+
+.modify, .remove {
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.modify {
+    background-color: #f39c12;
+    color: white;
+    margin-right: 8px;
+}
+
+.modify:hover {
+    background-color: #e67e22;
+}
+
+.remove {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.remove:hover {
+    background-color: #c0392b;
+}
